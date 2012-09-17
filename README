@@ -1,10 +1,12 @@
 Required package on Ubuntu
 
 $ sudo apt-get install build-essentials gfortran-4.3 zlib1g-dev libjpeg-dev liblapack-dev f2c libminpack1 gfortran
+or 
+$ sudo apt-get install build-essentials gfortran zlib1g-dev libjpeg-dev liblapack-dev libmagick-dev jhead
 
 Then
 
-$ make
+$ make -j3
 
 Then
 
