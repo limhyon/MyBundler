@@ -1,0 +1,7 @@
+*/*.o
+*/*/*.o
+*.a
+*.so
+f2c/arith.h
+f2c/signal1.h
+f2c/sysdep1.h

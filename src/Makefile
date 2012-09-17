@@ -1,7 +1,7 @@
 # Makefile for bundler
 
 CC=gcc
-OPTFLAGS=-O3 -Wall
+OPTFLAGS=-O3 -Wall -fpermissive
 
 OS=$(shell uname -o)
 
